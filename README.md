@@ -1,2 +1,3 @@
 # fluffysnake
- Snake in c++.
+
+Snake with functions in c++.

@@ -172,9 +172,9 @@ void Logic()
         playerX -= width;
     if(playerY >= height)
         playerY -= height;
-    if(playerX <= 0)
+    if(playerX <= -2)
         playerX += width;
-    if(playerY <= 0)
+    if(playerY <= -2)
         playerY += height;
 
 }

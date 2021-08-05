@@ -127,7 +127,6 @@ void Input()
 
 void Logic()
 {
-    bool now = false;
     int prevX = bodyX[0];
     int prevY = bodyY[0];
     int prevX2, prevY2;
@@ -141,7 +140,6 @@ void Logic()
         bodyY[bl] = prevY;
         prevX = prevX2;
         prevY = prevY2;
-        now = true;
     }
     if(direction == dup)
         playerY--;
